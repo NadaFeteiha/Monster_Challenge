@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MonsterChallenge" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal</item>
+        <item name="colorSecondaryVariant">@color/teal</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorSurface">@color/light_gray</item>
+    </style>
+
+    <style name="ShapeAppearanceCircle" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearanceRound" parent="">
+        <item name="cornerSizeBottomLeft">5%</item>
+        <item name="cornerSizeBottomRight">5%</item>
+    </style>
+
+    <style name="ShapeAppearanceRoundEnd" parent="">
+        <item name="cornerSizeBottomRight">5%</item>
+        <item name="cornerSizeTopRight">5%</item>
+    </style>
+
+    <style name="category_text" parent="title_text">
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="title_text">
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="body_text">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">@dimen/body_font_size</item>
+    </style>
+</resources>

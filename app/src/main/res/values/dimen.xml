@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="extra_small_padding">4dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="regular_margin">16dp</dimen>
+
+
+    <dimen name="title_font_size">18sp</dimen>
+    <dimen name="body_font_size">12sp</dimen>
+
+    <dimen name="corner_redis">12dp</dimen>
+
+</resources>

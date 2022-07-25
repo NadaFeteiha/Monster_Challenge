@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Monster Challenge</string>
+    <string name="season">%s Seasons</string>
+    <string name="tv_show_text">TV-Shows</string>
+    <string name="category_actor">Actors of the Month</string>
+    <string name="category_tv_show">TV-Shows</string>
+    <string name="category_recommended">Recommended To You</string>
+
+</resources>
